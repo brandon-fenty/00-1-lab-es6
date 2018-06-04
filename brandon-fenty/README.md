@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+I had to convert any const with dynamic values that change with interactivity. As an example, you cannot use const to iterate through an array because the index changes each time it goes through, const can only be used on something that has a static value and will not change.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It was very straight forward and intuitive, I definitely think I will incomporate template literal's into my coding style. For one, it's less typing (also easier to type because of the placement of the keys), I also think it looks a lot prettier.
